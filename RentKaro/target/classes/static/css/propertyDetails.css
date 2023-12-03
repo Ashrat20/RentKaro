@@ -1,0 +1,146 @@
+body{
+	overflow-x: hidden;
+	font-family: "Poppins", sans-serif;	
+}
+
+.navbar {
+    background-color: #d8232a;
+}
+
+#mainhead{
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.nav-link{
+	font-size: 20px;
+}
+.nav-link:hover{
+	color:black !important;
+	text-decoration: underline;
+}
+#lst{
+	font-weight: bold;
+}
+
+.container {
+    padding: 30px;
+}
+
+.container #row1 {
+    width: 100%;
+}
+#name{
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 0px;
+	color: white;
+}
+
+.dropdown{
+	margin-right: 18px;
+}
+.dropdown-menu{
+	margin-left: -90px;
+}
+
+.prop_details {
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.container #row1 #imagecol .prop_image img {
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.prevBtn,
+.nextBtn {
+    position: absolute;
+    top: 33%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    z-index: 1; 
+}
+
+.prevBtn {
+    left: 8%;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nextBtn {
+    right: 51%;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container .row #ownercol {
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    height: fit-content;
+}
+
+.container .row #ownercol #col1 {
+    background-color: #d8232a;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 0%;
+    border: none;
+}
+
+#messr {
+    resize: none;
+}
+
+#revbtn {
+    font-weight: bold;
+    padding: 8px 26px;
+}
+
+
+
+.footer {
+  background-color: #e2eafc; 
+  box-shadow: 0px -25px 20px -24px rgba(0,0,0,0.45);
+}
+
+
+#foot1{
+    margin-top: 100px;
+    margin-bottom: 90px;
+    margin-left: 200px;
+   padding-top: 50px;
+}
+
+.iconlist a {
+    margin-right: 10px; /* Adjust the value to increase/decrease space */
+}
+
+#foot1 #fcol2 ul{
+    list-style: none;
+}
+#foot1 #fcol2 ul a{
+    color: black;
+    text-decoration: none;
+}
+
+#fbottom{
+    height: 50px;
+    border-top: 1px solid white;
+    padding-top: 10px;
+    overflow: hidden;
+    
+}
+#fbottom p{
+    text-align: center;
+    font-size: 18px;
+}

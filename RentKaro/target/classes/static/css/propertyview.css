@@ -1,0 +1,52 @@
+#propview{
+	box-sizing: border-box;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 25px;
+}
+#linkprop{
+	text-decoration: none;
+	color: black;
+}
+
+.blur {
+    filter: blur(4px); 
+    pointer-events: none; 
+}
+
+.slider-container {
+    position: relative;
+    /* Other necessary styles */
+}
+
+.prevBtn,
+.nextBtn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 8px 12px;
+}
+
+.prevBtn {
+    left: -15px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nextBtn {
+    right: -15px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#statuspara{
+	font-size: 20px;
+}
+
+.noprop{
+	margin-top: 130px;
+}
+
