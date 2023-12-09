@@ -1,0 +1,27 @@
+body{
+    background: radial-gradient( circle farthest-corner at -0.2% 99.7%,  rgba(190,53,145,1) 0%, rgba(239,69,115,1) 100.2% );
+    background-repeat: no-repeat;   
+    height: 750px;
+    overflow: hidden;
+}
+
+
+.container {
+    background-color: white;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: fixed;
+    top: 13%;
+    left: 37%;
+    width: 400px;
+    padding: 30px 30px;
+    border-radius: 10px;
+}
+
+
+.container #btn1{
+    margin-left: 35%;
+    width: 100px;
+    padding: 10px 10px;
+    font-weight: bold;
+}
