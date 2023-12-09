@@ -152,7 +152,7 @@
 						%>
 
 						<img src="data:image/*;base64,<%=imgl.getBase64ImageData()%>"
-							alt="" id="prop2img" class="slider-image" />
+							alt="" class="slider-image prop2img" />
 						<%
 						}
 						}
